@@ -1,1 +1,1 @@
-# redOrBlue
+# red-or-blue-feature-extractor
