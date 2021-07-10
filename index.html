@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Red or Blue?</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<div class="col-4" id="main">
+		<div id="video">
+			<!--add video here-->
+			</div>
+
+		<div id="data">
+			<button id="blue"> 🔵 - <span id="blueCount">0</span> images</button>
+        <button id="red"> 🔴 - <span id="redCount">0</span> images</button>
+
+        <br> <!--line break-->
+
+        <button id="train" class='outline'>Train 🚋</button>
+        <button id="predict" class='outline'>Predict 🔮</button>
+
+        <br>
+
+       <em id="info">Please add at least 15 examples of each before training!</em> 
+      </div>
+    </div> 
+
+		<!-- Import ml5.js, p5.js and p5.dom.js  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+		<script src="https://unpkg.com/ml5"></script>
+		
+    <script src="script.js"></script> 
+</body>
+
+</html>
