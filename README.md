@@ -1,1 +1,1 @@
-# red-or-blue-feature-extractor
+# ML-driven-gesture-recognition
